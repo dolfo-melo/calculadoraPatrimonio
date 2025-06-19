@@ -4,7 +4,7 @@ using System.Collections.Generic;
 class Program
 {
     // Váriaveis Globais
-    static decimal patrimonio = 0, rendaFx = 0, rendaVar = 0;
+    static decimal patrimonio = 0, rendaFx = 0, rendaVar = 0, stocks=0, cripto = 0;
     static string fxCategory = "", varCategory = "";
 
     static int output = 0;
@@ -15,7 +15,8 @@ class Program
         {"RendaFixa", RendaFixa},
         {"RendaVariavel", RendaVariavel},
         {"AcoesInternacionais", Stocks},
-        {"Criptomoedas", Cripto}
+        {"Criptomoedas", Cripto},
+        {"VerPatrimonio", VerPatrimonio}
     };
 
     // Função para adicionar Renda Fixa
@@ -51,13 +52,38 @@ class Program
     }
     static decimal Stocks()
     {
-        Console.WriteLine("Opção de Açoes Internacionais será implementada em breve");
-        return output;
+        Console.Write("\nDigite seu patrimônio em Ações Internacionais: ");
+        while (!decimal.TryParse(Console.ReadLine(), out stocks))
+        {
+            Console.Write("Valor Inválido. Digite um número válido: ");
+        }
+        stocks *= 5; // Multiplicando por 5 para simular a conversão de ações internacionais
+        patrimonio += stocks;
+        Console.WriteLine($"-- Adicionado R$ {stocks} em Ações Internacionais --");
+        return stocks;
     }
     static decimal Cripto()
     {
-        Console.WriteLine($"Opção de Criptomoedas será implementada em breve");
-        return output;
+        Console.Write("\nDigite seu patrimônio em Cripto: ");
+        while (!decimal.TryParse(Console.ReadLine(), out cripto))
+        {
+            Console.Write("Valor Inválido. Digite um número válido: ");
+        }
+        cripto *= 10; // Multiplicando por 10 para simular a conversão de criptomoedas
+        patrimonio += cripto;
+        Console.WriteLine($"-- Adicionado R$ {cripto} em Criptomoedas --");
+        return cripto;
+    }
+
+    static decimal VerPatrimonio()
+    {
+        Console.WriteLine($"-- Patrimônio --");
+        Console.WriteLine($"\nRenda Fixa: R$ {rendaFx} em {fxCategory}");
+        Console.WriteLine($"\nRenda Variável: R$ {rendaVar} em {varCategory}");
+        Console.WriteLine($"\nAções Internacionais: R$ {stocks}");
+        Console.WriteLine($"\nCriptomoedas: R$ {cripto}");
+        Console.WriteLine($"\nTotal: R$ {patrimonio}");
+        return patrimonio;
     }
 
     // Menu das Categorias
@@ -98,7 +124,7 @@ class Program
         while (true)
         {
 
-            Console.WriteLine("-- Calculadora de Patrimonio --");
+            Console.WriteLine("\n-- Calculadora de Patrimonio --");
             Console.WriteLine("1 - Cálculo Renda Fixa");
             Console.WriteLine("2 - Cálculo Renda Variavel");
             Console.WriteLine("3 - Cálculo Ações Internacionais");
@@ -130,10 +156,11 @@ class Program
                     Menu("Criptomoedas");
                     break;
                 case 5:
-                    Console.WriteLine($"\nPatrimônio Total: R$ {patrimonio}");
+                    Menu("VerPatrimonio");
                     break;
                 case 6:
-                    Console.WriteLine($"Encerrando Programa...");
+                    Console.WriteLine("\nObrigado por usar a Calculadora de Patrimônio!");
+                    Console.WriteLine("\nEncerrando Programa...");
                     return;
                 default:
                     Console.WriteLine("Opção Inválida! Digite um número de 1 a 6");

@@ -12,3 +12,4 @@ C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\D
 C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.pdb
 C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.genruntimeconfig.cache
 C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\ref\calculadoraPatrimonio.dll
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.sourcelink.json
