@@ -1,0 +1,14 @@
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\bin\Debug\net9.0\calculadoraPatrimonio.exe
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\bin\Debug\net9.0\calculadoraPatrimonio.deps.json
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\bin\Debug\net9.0\calculadoraPatrimonio.runtimeconfig.json
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\bin\Debug\net9.0\calculadoraPatrimonio.dll
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\bin\Debug\net9.0\calculadoraPatrimonio.pdb
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.AssemblyInfoInputs.cache
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.AssemblyInfo.cs
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.csproj.CoreCompileInputs.cache
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.dll
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\refint\calculadoraPatrimonio.dll
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.pdb
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\calculadoraPatrimonio.genruntimeconfig.cache
+C:\Users\rodol\Documents\Documents\dotNET - Projetos\calculadoraPatrimonio\obj\Debug\net9.0\ref\calculadoraPatrimonio.dll
