@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("calculadoraPatrimonio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5250399f25e3916210c335767e75d72086f1b060")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2210f680e8d205230301b913a18d94dc9e00b05b")]
 [assembly: System.Reflection.AssemblyProductAttribute("calculadoraPatrimonio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("calculadoraPatrimonio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
